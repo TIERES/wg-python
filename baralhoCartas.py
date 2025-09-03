@@ -7,8 +7,8 @@ valores = (2,3,4,5,6,7,8,9,10,'J','Q','K','A')
 baralho = []
 isJoker = input('Gerar Joker (s,n)? ') in ('s','S')
 isEmbaralhar = input('Embaralhar (s,n)? ') in ('s','S')
-quantidadeBaralho = int(input('Quantas baralhos quer jogar? '))
-quantidadeJogadores = int(input('Quantas jogadores quer jogar? '))
+quantidadeBaralho = int(input('Quantos baralhos abrir? '))
+quantidadeJogadores = int(input('Quantos jogadores vão jogar? '))
 numCartasJogador = 5
 jogadorCartas = {}
 
